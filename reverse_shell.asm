@@ -4,7 +4,7 @@ include \masm32\include\ws2_32.inc
 
 includelib \masm32\lib\ws2_32.lib
 
-; 127.0.0.1:1111 -> 0100007fh
+; 127.0.0.1 -> 0100007fh
 RHOST    equ    0100007fh
 RPORT    equ    5704h
 
